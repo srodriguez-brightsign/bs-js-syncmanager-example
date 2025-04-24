@@ -1,4 +1,5 @@
 # JavaScript syncmanager API
+
 https://docs.brightsign.biz/space/DOC/420217068/syncmanager
 
 ## Tested with:
@@ -18,4 +19,4 @@ Waiting on OS-18112 to retest the above scenarios
 
 - Save `autorun.brs`, `index.html`, and `index.js` to blank SD card.
 - Create a `videos` folder in the root of the SD card. Add videos in the supported format(s). https://docs.brightsign.biz/space/DOC/420217068/syncmanager#synchronize()
-- To set up a follower, change the very first line of the code to `let isLeader = false;`
+- To set up a follower, open the `index.js` file and change the very first line of the code to `let isLeader = false;`
