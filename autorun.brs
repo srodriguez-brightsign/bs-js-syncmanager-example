@@ -55,6 +55,7 @@ function createHTMLWidget(mp as object) as object
 	
   ' Create HTML Widget config
 	config = {
+		hwz_default: "on"
 		mouse_enabled: true
 		nodejs_enabled: true
 		brightsign_js_objects_enabled: true
